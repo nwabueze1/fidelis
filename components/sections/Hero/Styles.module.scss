@@ -1,0 +1,32 @@
+.hero {
+  display: flex;
+  // grid-template-columns: repeat(2, 1fr);
+  // gap: 2;
+  justify-content: space-between;
+}
+
+.item1 {
+  max-width: 640px;
+}
+
+.crafts {
+  color: rgb(190, 190, 190);
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.button {
+  background: none;
+  color: white;
+  font-size: 1.6rem;
+  border: 1px solid #c778dd;
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.working {
+  padding: 10px;
+  border: 1px solid lightgrey;
+  font-size: 1.2rem;
+}
